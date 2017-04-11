@@ -9,55 +9,55 @@ $Scrolllock::Suspend
 
 ;arrow keys = D-PAD
 $Up::
-   SendInput, up{Enter}
+   SendInput, /whisper{Space}@youplay{Space}up{Enter}
    Sleep, 500
 Return
 
 $Left::
-   SendInput, left{Enter}
+   SendInput, /whisper{Space}@youplay{Space}left{Enter}
    Sleep, 500
 Return
 
 $Down::
-   SendInput, down{Enter}
+   SendInput, /whisper{Space}@youplay{Space}down{Enter}
    Sleep, 500
 Return
 
 $Right::
-   SendInput, right{Enter}
+   SendInput, /whisper{Space}@youplay{Space}right{Enter}
    Sleep, 500
 Return
 
 ;Start and Select = Enter and Space
 $Space::
-   SendInput, select{Enter}
+   SendInput, /whisper{Space}@youplay{Space}select{Enter}
    Sleep, 500
 Return
 
 $Enter::
-   SendInput, start{Enter}
+   SendInput, /whisper{Space}@youplay{Space}start{Enter}
    Sleep, 500
 Return
 
 ;A and B = C and X
 $C::
-   SendInput, a{Enter}
+   SendInput, /whisper{Space}@youplay{Space}a{Enter}
    Sleep, 500
 Return
 
 $X::
-   SendInput, b{Enter}
+   SendInput, /whisper{Space}@youplay{Space}b{Enter}
    Sleep, 500
 Return
 
 ;X and Y = S and Z
 $S::
-   SendInput, x{Enter}
+   SendInput, /whisper{Space}@youplay{Space}x{Enter}
    Sleep, 500
 Return
 
 $Z::
-   SendInput, y{Enter}
+   SendInput, /whisper{Space}@youplay{Space}y{Enter}
    Sleep, 500
 Return
 
