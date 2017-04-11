@@ -4,6 +4,7 @@
 ;L and R = A and D
 ;A and B = C and X
 ;X and Y = S and Z
+;Scroll lock suspends and resumes the script (for example if you want to type in chat)
 
 $Scrolllock::Suspend
 
